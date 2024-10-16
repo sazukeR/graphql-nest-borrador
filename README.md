@@ -29,3 +29,22 @@ yarn
 ```
 yarn start:dev
 ```
+
+## instalaciones realizadas en el proyecto
+
+- graphql y apollo
+
+```
+yarn add @nestjs/graphql @nestjs/apollo @apollo/server graphql
+```
+
+- configurar apollo driver en el Module
+
+```
+GraphQLModule.forRoot<ApolloDriverConfig>({
+ driver: ApolloDriver,
+// debug: false,
+ // playground: false
+ autoSchemaFile: join( process.cwd(), 'src/schema.gql'),
+ }),
+```
