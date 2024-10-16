@@ -14,18 +14,18 @@ nest new project-name
 
 ## clonar repo
 
-´´´
+```
 git clone https://github.com/sazukeR/graphql-nest-borrador.git
-´´´
+```
 
-´´´
+```
 cd graphql-nest-borrador
-´´´
+```
 
-´´´
+```
 yarn
-´´´
+```
 
-´´´
+```
 yarn start:dev
-´´´
+```
